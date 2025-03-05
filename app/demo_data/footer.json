@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Details",
+    "description": "A project about product page designs using Next.js for various types of eshops"
+  },
+  {
+    "id": 2,
+    "title": "Contact",
+    "description": "Contact me through my LinkedIn page."
+  },
+  {
+    "id": 3,
+    "title": "Github",
+    "description": "This is my Github page."
+  }
+]

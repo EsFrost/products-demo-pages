@@ -1,3 +1,38 @@
-{
-  "url": "https://berlinpackaging.eu/en-fr/products/belgium-750ml-tm-16-5-amber?item-list-id=615932789102&item-list-name=plp-beer_beer_bottles&Capacity=750+ml&Color=Amber"
-}
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "id": 2,
+    "title": "About",
+    "url": "/about"
+  },
+  {
+    "id": 3,
+    "title": "Contact",
+    "url": "/contact"
+  },
+  {
+    "id": 4,
+    "title": "Products",
+    "products": [
+      {
+        "id": 1,
+        "title": "Minimal Design",
+        "url": "/products/minimal"
+      },
+      {
+        "id": 2,
+        "title": "Amazon Clone",
+        "url": "/products/amazon-clone"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Catalog",
+    "url": "/catalog"
+  }
+]
