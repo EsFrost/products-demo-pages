@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "bottle",
+    "price": 0,
+    "quantity": 0,
+    "description": "",
+    "images": {
+      "gallery": [
+        {
+          "id": 1,
+          "url": "",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    "specifications": {
+      "material": "",
+      "color": "",
+      "size": "",
+      "weight": 0,
+      "height": 0,
+      "brand": ""
+    },
+    "sku": "",
+    "shortDescription": "",
+    "reviewed": "",
+    "reviews": {
+      "rating": 0,
+      "totalReviews": 0,
+      "customerReviews": [
+        {
+          "name": "",
+          "email": "",
+          "rating": 0,
+          "review": ""
+        }
+      ]
+    }
+  }
+]
