@@ -6,16 +6,11 @@
   },
   {
     "id": 2,
-    "title": "About",
-    "url": "/about"
-  },
-  {
-    "id": 3,
     "title": "Contact",
     "url": "/contact"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Products",
     "products": [
       {
@@ -31,7 +26,7 @@
     ]
   },
   {
-    "id": 5,
+    "id": 4,
     "title": "Catalog",
     "url": "/catalog"
   }
