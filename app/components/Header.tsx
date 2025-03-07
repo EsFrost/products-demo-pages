@@ -3,6 +3,7 @@ import Image from "next/image";
 import data from "../demo_data/header.json";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
+import { DropdownMenu } from "./DropdownMenu";
 
 export const Header = () => {
   return (
@@ -20,28 +21,23 @@ export const Header = () => {
 
       <nav className="w-full md:w-2/3 flex justify-between items-center">
         <ul className="flex gap-x-8 text-2xl">
-          {data.map((item, index) => (
-            <li
-              key={index}
-              className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 relative group"
-            >
-              <Link href={item.url || "/"}>{item.title}</Link>
-              {item.products && (
-                <ul className="absolute w-40 bg-white dark:bg-gray-800 shadow-md rounded p-2 mt-2 z-10 hidden group-hover:block">
-                  {item.products.map((product, index) => (
-                    <li key={index} className="text-lg py-1">
-                      <Link
-                        href={product.url}
-                        className="hover:text-blue-600 dark:hover:text-blue-400"
-                      >
-                        {product.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </li>
-          ))}
+          {data.map((item) =>
+            item.products ? (
+              <DropdownMenu
+                key={item.id}
+                title={item.title}
+                url={item.url || "/"}
+                products={item.products}
+              />
+            ) : (
+              <li
+                key={item.id}
+                className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-600 transition-all duration-300"
+              >
+                <Link href={item.url || "/"}>{item.title}</Link>
+              </li>
+            )
+          )}
         </ul>
 
         <div className="ml-4">

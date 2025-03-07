@@ -34,7 +34,7 @@ export default function RootLayout({
         <ThemeScript />
         <ThemeProvider>
           <Header />
-          {children}
+          <div className="min-h-[calc(100vh-280px)]">{children}</div>
           <Footer />
         </ThemeProvider>
       </body>
