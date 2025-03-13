@@ -8,7 +8,7 @@ import { DropdownMenu } from "./DropdownMenu";
 export const Header = () => {
   return (
     <header className="flex px-8 justify-between h-20 items-center border-b dark:border-gray-800">
-      <div className="hidden md:block md:w-1/3">
+      <div className="hidden md:block md:w-1/3 mr-2">
         <Image
           src="/bottle-1.jpg"
           alt="Site logo"
