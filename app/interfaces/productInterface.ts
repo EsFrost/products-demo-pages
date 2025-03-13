@@ -4,9 +4,7 @@ export interface Product {
   price: number;
   quantity: number;
   description: string;
-  images: {
-    gallery: Image[];
-  };
+  images: ImageType[];
   specifications: {
     material: string;
     color: string;
@@ -21,7 +19,7 @@ export interface Product {
   reviews: Reviews;
 }
 
-export interface Image {
+export interface ImageType {
   id: number;
   url: string;
   alt: string;

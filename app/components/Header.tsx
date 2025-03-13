@@ -10,12 +10,13 @@ export const Header = () => {
     <header className="flex px-8 justify-between h-20 items-center border-b dark:border-gray-800">
       <div className="hidden md:block md:w-1/3">
         <Image
-          src="/"
+          src="/bottle-1.jpg"
           alt="Site logo"
           sizes="100vw"
           height={0}
           width={0}
           priority={true}
+          className="w-full h-20 object-none"
         />
       </div>
 

@@ -2,29 +2,27 @@
   {
     "id": 1,
     "name": "bottle",
-    "price": 0,
-    "quantity": 0,
-    "description": "",
-    "images": {
-      "gallery": [
-        {
-          "id": 1,
-          "url": "",
-          "alt": "",
-          "title": ""
-        }
-      ]
-    },
+    "price": 0.5,
+    "quantity": 1,
+    "description": "This is a bottle.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/bottle-1.jpg",
+        "alt": "Image of a bottle",
+        "title": "Bottle 1"
+      }
+    ],
     "specifications": {
-      "material": "",
-      "color": "",
+      "material": "Glass",
+      "color": "Transparent",
       "size": "",
-      "weight": 0,
-      "height": 0,
-      "brand": ""
+      "weight": 50,
+      "height": 0.25,
+      "brand": "My brand"
     },
-    "sku": "",
-    "shortDescription": "",
+    "sku": "bottle-1",
+    "shortDescription": "This is a bottle.",
     "reviewed": "",
     "reviews": {
       "rating": 0,
