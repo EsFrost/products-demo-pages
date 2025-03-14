@@ -1,38 +1,342 @@
 [
   {
     "id": 1,
-    "name": "bottle",
-    "price": 0.5,
-    "quantity": 1,
-    "description": "This is a bottle.",
+    "name": "Classic Water Bottle",
+    "price": 8.99,
+    "quantity": 45,
+    "description": "A sleek and durable glass water bottle with a secure screw cap. Perfect for everyday hydration while reducing plastic waste.",
     "images": [
       {
         "id": 1,
-        "url": "/bottle-1.jpg",
-        "alt": "Image of a bottle",
-        "title": "Bottle 1"
+        "url": "/glass-bottle-classic.jpg",
+        "alt": "Clear glass water bottle with blue cap",
+        "title": "Classic Glass Water Bottle"
       }
     ],
     "specifications": {
       "material": "Glass",
       "color": "Transparent",
-      "size": "",
-      "weight": 50,
+      "size": "500ml",
+      "weight": 350,
       "height": 0.25,
-      "brand": "My brand"
+      "brand": "EcoGlass"
     },
-    "sku": "bottle-1",
-    "shortDescription": "This is a bottle.",
-    "reviewed": "",
+    "sku": "bottle-classic-01",
+    "shortDescription": "500ml transparent glass water bottle.",
+    "reviewed": "yes",
     "reviews": {
-      "rating": 0,
-      "totalReviews": 0,
+      "rating": 4.7,
+      "totalReviews": 89,
       "customerReviews": [
         {
-          "name": "",
-          "email": "",
-          "rating": 0,
-          "review": ""
+          "name": "Michael Johnson",
+          "email": "michael.j@example.com",
+          "rating": 5,
+          "review": "Excellent quality bottle. No plastic taste and easy to clean."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Amber Medicine Bottle",
+    "price": 3.5,
+    "quantity": 120,
+    "description": "Amber glass bottle with dropper cap, perfect for storing essential oils, tinctures, or light-sensitive medications. UV protection prevents degradation of contents.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/amber-bottle.jpg",
+        "alt": "Amber glass medicine bottle with dropper",
+        "title": "Amber Glass Medicine Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Amber",
+      "size": "30ml",
+      "weight": 65,
+      "height": 0.1,
+      "brand": "PharmGlass"
+    },
+    "sku": "bottle-amber-30ml",
+    "shortDescription": "30ml amber glass bottle with medicine dropper.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.8,
+      "totalReviews": 42,
+      "customerReviews": [
+        {
+          "name": "Sarah Williams",
+          "email": "s.williams@example.com",
+          "rating": 5,
+          "review": "Perfect size and the dropper works very precisely. Amber color provides good UV protection."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "Vintage Milk Bottle",
+    "price": 6.75,
+    "quantity": 30,
+    "description": "Retro-style glass milk bottle with wide mouth and optional metal cap. Perfect for serving milk, homemade beverages, or as a decorative piece.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/vintage-milk-bottle.jpg",
+        "alt": "Clear glass vintage-style milk bottle",
+        "title": "Vintage Glass Milk Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Transparent",
+      "size": "750ml",
+      "weight": 450,
+      "height": 0.28,
+      "brand": "RetroGlass"
+    },
+    "sku": "bottle-milk-vintage",
+    "shortDescription": "750ml vintage-style glass milk bottle.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.5,
+      "totalReviews": 36,
+      "customerReviews": [
+        {
+          "name": "Thomas Brown",
+          "email": "t.brown@example.com",
+          "rating": 4,
+          "review": "Great quality and looks authentic. Only wish it came with the metal cap included."
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "Blue Cosmetic Bottle",
+    "price": 4.25,
+    "quantity": 85,
+    "description": "Cobalt blue glass bottle with pump dispenser, ideal for lotions, serums, and other skincare products. The dark glass helps preserve sensitive formulations.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/blue-cosmetic-bottle.jpg",
+        "alt": "Cobalt blue glass bottle with pump dispenser",
+        "title": "Blue Glass Cosmetic Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Cobalt Blue",
+      "size": "100ml",
+      "weight": 120,
+      "height": 0.15,
+      "brand": "BeautyGlass"
+    },
+    "sku": "bottle-cosmetic-blue",
+    "shortDescription": "100ml cobalt blue glass cosmetic bottle with pump.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.3,
+      "totalReviews": 28,
+      "customerReviews": [
+        {
+          "name": "Emily Parker",
+          "email": "e.parker@example.com",
+          "rating": 4,
+          "review": "Beautiful bottle for my homemade face serum. Pump works smoothly but be careful not to overtighten it."
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "Green Wine Bottle",
+    "price": 2.99,
+    "quantity": 60,
+    "description": "Standard green glass wine bottle with cork finish. Perfect for home winemaking, craft beverages, or upcycling projects.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/green-wine-bottle.jpg",
+        "alt": "Dark green glass wine bottle",
+        "title": "Green Glass Wine Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Dark Green",
+      "size": "750ml",
+      "weight": 500,
+      "height": 0.3,
+      "brand": "VintnerGlass"
+    },
+    "sku": "bottle-wine-green",
+    "shortDescription": "Standard 750ml dark green glass wine bottle.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.6,
+      "totalReviews": 53,
+      "customerReviews": [
+        {
+          "name": "Robert Chen",
+          "email": "r.chen@example.com",
+          "rating": 5,
+          "review": "Perfect bottles for my homemade wine. Good quality and thickness, corks fit well."
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "Square Decanter Bottle",
+    "price": 15.99,
+    "quantity": 25,
+    "description": "Elegant square glass decanter bottle with glass stopper. Ideal for spirits, liqueurs, oils, or as a decorative accent piece.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/square-decanter.jpg",
+        "alt": "Square glass decanter bottle with stopper",
+        "title": "Square Glass Decanter Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Clear Crystal",
+      "size": "500ml",
+      "weight": 750,
+      "height": 0.27,
+      "brand": "LuxGlass"
+    },
+    "sku": "bottle-decanter-square",
+    "shortDescription": "500ml square glass decanter bottle with stopper.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.9,
+      "totalReviews": 31,
+      "customerReviews": [
+        {
+          "name": "Olivia Martinez",
+          "email": "o.martinez@example.com",
+          "rating": 5,
+          "review": "Stunning bottle! The glass is thick and has a beautiful clarity. Perfect for my homemade limoncello."
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "Miniature Glass Bottle",
+    "price": 1.75,
+    "quantity": 150,
+    "description": "Tiny glass bottle with cork stopper, perfect for crafts, wedding favors, message in a bottle gifts, or storing small quantities of special ingredients.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/mini-bottle.jpg",
+        "alt": "Small clear glass bottle with cork",
+        "title": "Miniature Cork Glass Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Transparent",
+      "size": "15ml",
+      "weight": 25,
+      "height": 0.06,
+      "brand": "CraftGlass"
+    },
+    "sku": "bottle-mini-cork",
+    "shortDescription": "15ml miniature glass bottle with cork stopper.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.4,
+      "totalReviews": 67,
+      "customerReviews": [
+        {
+          "name": "Jessica Taylor",
+          "email": "j.taylor@example.com",
+          "rating": 4,
+          "review": "Cute little bottles! Perfect for the beach-themed wedding favors I'm making."
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "Frosted Spray Bottle",
+    "price": 5.5,
+    "quantity": 40,
+    "description": "Elegant frosted glass bottle with fine mist sprayer. Ideal for room sprays, hair products, or aromatherapy blends. Provides UV protection while maintaining a sleek appearance.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/frosted-spray-bottle.jpg",
+        "alt": "Frosted glass bottle with spray nozzle",
+        "title": "Frosted Glass Spray Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Frosted",
+      "size": "100ml",
+      "weight": 135,
+      "height": 0.18,
+      "brand": "MistGlass"
+    },
+    "sku": "bottle-spray-frosted",
+    "shortDescription": "100ml frosted glass spray bottle for misting.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.2,
+      "totalReviews": 45,
+      "customerReviews": [
+        {
+          "name": "Daniel Wilson",
+          "email": "d.wilson@example.com",
+          "rating": 4,
+          "review": "Good quality bottle and the sprayer works well. The frosted finish looks premium and hides fingerprints."
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "Apothecary Bottle",
+    "price": 7.25,
+    "quantity": 35,
+    "description": "Vintage-inspired apothecary bottle with glass lid. Features an embossed design and wide mouth, perfect for bathroom storage, candy jars, or decorative use.",
+    "images": [
+      {
+        "id": 1,
+        "url": "/apothecary-bottle.jpg",
+        "alt": "Clear glass apothecary bottle with lid",
+        "title": "Glass Apothecary Storage Bottle"
+      }
+    ],
+    "specifications": {
+      "material": "Glass",
+      "color": "Transparent",
+      "size": "350ml",
+      "weight": 400,
+      "height": 0.2,
+      "brand": "AntiquGlass"
+    },
+    "sku": "bottle-apothecary-clear",
+    "shortDescription": "350ml clear glass apothecary bottle with lid.",
+    "reviewed": "yes",
+    "reviews": {
+      "rating": 4.7,
+      "totalReviews": 38,
+      "customerReviews": [
+        {
+          "name": "Amanda Lee",
+          "email": "a.lee@example.com",
+          "rating": 5,
+          "review": "Beautiful vintage-looking bottle! The glass is thick and the lid fits perfectly. Using it in my bathroom for cotton balls."
         }
       ]
     }
