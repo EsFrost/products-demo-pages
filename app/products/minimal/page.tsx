@@ -37,7 +37,7 @@ export default function MinimalPage() {
               fill
               sizes="100vw"
               priority={true}
-              className="w-full h-full object-none object-[50%_40%]"
+              className="w-full h-full object-none object-[50%_30%]"
             />
           ) : (
             <div className="w-full h-full flex items-center justify-center bg-gray-100 dark:bg-gray-900 text-gray-400">
