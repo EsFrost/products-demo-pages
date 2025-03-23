@@ -5,6 +5,7 @@ import Image from "next/image";
 import data from "../../demo_data/products.json";
 import { ImageModal } from "../../components/general_components/ImageModal";
 import { Product } from "../../interfaces/productInterface";
+import { ImageGallery } from "@/app/components/product_components/ImageGallery";
 
 export default function MinimalPage() {
   const product = data[0] as unknown as Product;
@@ -27,13 +28,13 @@ export default function MinimalPage() {
       {/* Product Image Section */}
       <div className="w-full md:w-1/2 mb-8 md:mb-0">
         <div
-          className="w-[500px] h-[500px] relative cursor-pointer overflow-hidden"
+          className="md:w-[500px] md:h-[500px] w-[300px] h-[300px] relative cursor-pointer overflow-hidden"
           onClick={openModal}
         >
           {hasImages ? (
             <Image
-              src={product.images[0].url}
-              alt={product.images[0].alt || product.name}
+              src={product.images[selectedImageIndex].url}
+              alt={product.images[selectedImageIndex].alt || product.name}
               fill
               sizes="100vw"
               priority={true}
@@ -47,34 +48,14 @@ export default function MinimalPage() {
         </div>
 
         {/* Thumbnail Preview (Optional) */}
-        {hasImages && product.images.length > 1 && (
+        {hasImages && (
           <div className="mt-4 flex gap-2 overflow-x-auto pb-2">
-            {product.images.map((image, index) => (
-              <div
-                key={image.id}
-                className="w-[500px] h-[500px] cursor-pointer overflow-hidden transition-colors"
-                style={{
-                  borderColor:
-                    selectedImageIndex === index
-                      ? "var(--foreground)"
-                      : "transparent",
-                }}
-                onClick={() => {
-                  setSelectedImageIndex(index);
-                  openModal();
-                }}
-              >
-                <Image
-                  src={image.url}
-                  alt={image.alt || `${product.name} thumbnail ${index + 1}`}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  priority={true}
-                  className="object-none"
-                />
-              </div>
-            ))}
+            <ImageGallery
+              images={product.images}
+              onImageClick={(index) => {
+                setSelectedImageIndex(index);
+              }}
+            />
           </div>
         )}
       </div>

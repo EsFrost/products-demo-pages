@@ -11,6 +11,12 @@
         "url": "/glass-bottle-classic.jpg",
         "alt": "Clear glass water bottle with blue cap",
         "title": "Classic Glass Water Bottle"
+      },
+      {
+        "id": 2,
+        "url": "/amber-bottle.jpg",
+        "alt": "Clear glass water bottle with blue cap",
+        "title": "Classic Glass Water Bottle"
       }
     ],
     "specifications": {
