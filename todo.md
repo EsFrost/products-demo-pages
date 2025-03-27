@@ -9,4 +9,4 @@
 - Create Minimal page
 - Create Amazon-clone page
 
-### 26-03-2025
+### 27-03-2025
